@@ -260,7 +260,11 @@
             margin-right: 30px;
             height: 100%;
         }
-        
+           @media(max-width:767px) {
+            .testmo .row .box-text {
+                margin-top: 70px;
+            }
+        }
         .testmo .row .content .text h4 {
             margin-top: 0;
         }
